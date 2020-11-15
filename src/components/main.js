@@ -9,7 +9,7 @@ import { Switch, Route } from 'react-router-dom';
 
 const Main = () => (
     <Switch>
-        <Route path="/react-internet-portfolio" component ={LandingPage} />
+        <Route exact path="/" component ={LandingPage} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/resume" component={Resume} />
         <Route path="/projects" component={Projects} />

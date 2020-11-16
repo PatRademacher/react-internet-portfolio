@@ -5,6 +5,7 @@ import Main from './components/main.js';
 import { Link } from 'react-router-dom';
 import { faGasPump, faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 

@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Picture } from 'react-responsive-picture';
-import ReactRoundedImage from "react-rounded-image";
 import backgroundVid from './backgroundVideo.mp4';
 class LandingPage extends Component {
     render() {
@@ -18,16 +17,7 @@ class LandingPage extends Component {
                 <Container className="containers">
                     <Row className="rows">
                         <Col className="columns" xs = "3" sm = "3" md = "3" lg = "3" xl = "3">
-                        <div className="avatar-img" alt="avatar">
-                        <ReactRoundedImage
-                            image={pic}
-                            roundedColor="green"
-                            roundedSize="7"
-                            imageWidth="220"
-                            imageHeight="220"
-                            />
-                            
-                            </div>
+                            <img src={pic} className="avatar-img" alt="avatar"/>
                         </Col>
                         <Col className="columns" xs = "9" sm = "7" md = "7" lg = "9" xl = "9">
                             <div className="separator" />
